@@ -16,7 +16,7 @@ class ImagesController < ApplicationController
         @image = Image.new images_params
         @image.save
 
-        #redirect_to @image  #redirecciona a una nueva vista
+        redirect_to @image  #redirecciona a una nueva vista
     end
 
     # GET /images/:id
