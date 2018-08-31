@@ -23,14 +23,14 @@ Things you may want to cover:
 
 * ...
 
-#IMPLEMTACIÓN
+# IMPLEMTACIÓN
 
 desppues de clonar el proyecto:
 * bundle install
 * rails db:create db:migrate (Verificar las credenciales que tienen par conexión de la base de datos 'config/database.yml)
 * Ejecutar : rals s ó rals server
 
-#COMANDOS DE FUNCIONALIDAD
+# COMANDOS DE FUNCIONALIDAD
 
 * Para crear un modelo en la BD: rails g migration  add_name_to_user name:string
 * Para ver todas la ruta:  rails routes
