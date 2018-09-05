@@ -48,3 +48,5 @@ gem 'carrierwave'
 gem 'mini_magick'
 # Pata realizar utenticación y creador de vista
 gem 'devise', git: 'git://github.com/plataformatec/devise.git'
+# Gem para autententoicación y seguridad
+gem 'jwt'
