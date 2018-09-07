@@ -1,0 +1,70 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-09-07T00:56:10.027Z",
+	"__export_source": "insomnia.desktop.app:v6.0.2",
+	"resources": [
+		{
+			"_id": "wrk_d585b73cb4de4c68a43873bab87dbc61",
+			"created": 1535572126763,
+			"description": "",
+			"modified": 1535572126763,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_08af21e2cc604e85b4e127bfe52b464c",
+			"color": null,
+			"created": 1535572126823,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1535572126823,
+			"modified": 1535572126823,
+			"name": "New Environment",
+			"parentId": "wrk_d585b73cb4de4c68a43873bab87dbc61",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_571f268ba65f44518d58d566fb28fec3",
+			"cookies": [],
+			"created": 1535572126846,
+			"modified": 1535572126846,
+			"name": "Default Jar",
+			"parentId": "wrk_d585b73cb4de4c68a43873bab87dbc61",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_9e90326217d14397b8cd007cfc618bbc",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\": \"jorgeluis163@gmail.com\",\n\t\"password\": 123456\n}"
+			},
+			"created": 1536276753236,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_4210020324d343c4abdd17d89538f74d",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1536276753237,
+			"method": "POST",
+			"modified": 1536276940322,
+			"name": "LOGIN",
+			"parameters": [],
+			"parentId": "wrk_d585b73cb4de4c68a43873bab87dbc61",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/v1/auth_user",
+			"_type": "request"
+		}
+	]
+}
