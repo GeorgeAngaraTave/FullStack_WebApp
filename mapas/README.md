@@ -19,7 +19,7 @@ Hola Curso
     # ionic g page mapa
     # ionic g page tabs
 
-### Instamación de Scanner
+### Instalaación de Scanner (paquete)
 
     # Notivo: https://ionicframework.com/docs/native/
     ionic cordova plugin add phonegap-plugin-barcodescanner
