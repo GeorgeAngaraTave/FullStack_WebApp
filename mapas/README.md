@@ -22,8 +22,10 @@ Hola Curso
 ### Instalaación de Scanner (paquete)
 
     # Notivo: https://ionicframework.com/docs/native/
+    # https://ionicframework.com/docs/native/barcode-scanner/
     ionic cordova plugin add phonegap-plugin-barcodescanner
     # npm install --save @ionic-native/barcode-scanner
+    
 
 ## Ejecutar
 
